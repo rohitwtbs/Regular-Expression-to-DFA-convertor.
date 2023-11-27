@@ -54,7 +54,7 @@ char pop1()
     if(top1<0)
     {
         printf("stack is empty\n");
-        return;
+        return "h";
     }
     else
     {
@@ -312,7 +312,7 @@ void construct_nfa(char *postfix)
 void disp_NFA()
 {
 	int i;
-	printf("\nstate\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\tî");
+	printf("\nstate\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\tï¿½");
 	for(i=0;i<cur;i++)
 	{
 		if(i==initial_state)
