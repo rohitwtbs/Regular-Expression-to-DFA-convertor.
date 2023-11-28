@@ -1,4 +1,6 @@
 import os
+
+# for mac have graphviz isntalled via brew
 import graphviz
 # os.system("./nfa2")
 
@@ -13,4 +15,4 @@ graph.render(output_image_path, format='png', cleanup=True)
 # dot = graphviz.Digraph(comment='The Round Table')
 # dot.render('fsm.gv', view=True)
 # os.system("dot -Tpng fsm.gv -o my.pdf")
-# os.system("display my.pdf")
+os.system("open DFA.png")
